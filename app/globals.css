@@ -19,13 +19,36 @@
   }
 }
 
-body {
-  background: rgba(75, 85, 99);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+html, body {
+  height: 100%;
+}
 
+body {
+
+  background: linear-gradient(45deg, grey 0%, lightgray 100%);
   display: flex;
   justify-content: center;
   align-items: center;
+
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.slots {
+  width: 276.5px;
+  height: 237px;
+  border: 1px solid black;
+  padding: ;
+  display: flex;
+  justify-content: space-between;
+
+
+  .reel {
+    border: 1px solid black;
+    width: 79px;
+    height: 237px;
+    background-image: url("/slotreel.webp");
+    background-repeat: repeat-y;
+    background-position: 0 0;
+  }
+}

@@ -1,20 +1,13 @@
 "use client"
 
+import SlotMachine from "./slot-machine";
+
 export default function Home() {
   return (
     <div>
       <main>
-
-        <div className="slots">
-          <div className="reel"></div>
-          <div className="reel"></div>
-          <div className="reel"></div>
-        </div>
-
+        <SlotMachine/>
       </main>
-
-      <footer>
-      </footer>
     </div>
   );
 }
