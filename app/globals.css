@@ -5,12 +5,14 @@
   --foreground: #171717;
 }
 
+/*
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+  */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -38,7 +40,6 @@ body {
   width: 276.5px;
   height: 237px;
   border: 1px solid black;
-  padding: ;
   display: flex;
   justify-content: space-between;
 
